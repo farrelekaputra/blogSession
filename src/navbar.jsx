@@ -2,24 +2,6 @@ import React from 'react';
 import Dropdown from './dropdown.jsx'
 import updateMe from './assets/updateMe.png'
 
-// const Navbar = () => {
-//     return(
-//         <nav className='bg-white z-40 top-0 shadow-md w-full px-16 py-4 flex justify-between mx-auto'>
-//             <div className="leftNav w-1/2 flex text-lg font-semibold">Movie Review</div>
-//             <div className="rightNav w-1/2 hidden md:block">
-//                 <ul className="submenu flex justify-end gap-16">
-//                     <li>Top Rate</li>
-//                     <li>Latest Update</li>
-//                     <li>About us</li>
-//                 </ul>
-//             </div>
-//             <div className="dropdown block md:hidden -ps-20">
-//                 <Dropdown />
-//             </div>
-//         </nav>
-//     );
-// };
-
 const Navbar = () => {
     return (
         <nav className="bg-white z-40 top-0 shadow-md w-full px-4 md:py-4 flex justify-between mx-auto">
