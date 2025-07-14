@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Card from './card-blog.jsx';
 import LandingPage from './landing.jsx';
 import Pelatihan from './pages/pelatihan/pelatihan.jsx';
+import Keyboard from './pages/keyboard/keyboard.jsx';
 
 import keebsImage from './assets/keebs.jpg';
 import magangImage from './assets/magang-2.jpg';
@@ -13,7 +14,7 @@ const blogData = [
     Title: "Keyboard",
     Genre: "Boys will be Boys",
     picture: keebsImage,
-    link: "https://farrelekaputra.github.io/keyboard.html"
+    link: "/keyboard"
   },
   {
     Title: "Magang Akademik",
@@ -57,6 +58,7 @@ function App() {
           }
         />
         <Route path="/pelatihan" element={<Pelatihan />} />
+        <Route path="/keyboard" element={<Keyboard />} />
       </Routes>
     </Router>
   );

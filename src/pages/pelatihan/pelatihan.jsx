@@ -1,4 +1,5 @@
 import Navbar from '../Navbar'
+import Judul from '../Judul'
 import Header from './Header'
 import Paragraf1 from './Paragraf1'
 import Image from './imageProperties'
@@ -7,11 +8,13 @@ import gambar2 from '../../assets/pelatihan/gambar-2.jpg'
 import MainText from './paragrafUtama'
 import Ending from './closing'
 import Footer from './footer'
+import React, { useEffect } from 'react';
 
 export default function Pelatihan() {
   return (
     <>
-      < Navbar />
+      <Judul temaWeb = "Pelatihan"/>
+      < Navbar title = "Tiba-tiba Ngajar"/>
 
       <div className="container mt-20 w-full flex flex-col items-center self-center justify-center mx-auto gap-4 p-4">
 
