@@ -1,13 +1,13 @@
-import Navbar from '../Navbar'
-import Judul from '../Judul'
-import Header from './Header'
-import Paragraf1 from './Paragraf1'
-import Image from './imageProperties'
+import Navbar from '../Navbar.jsx'
+import Judul from '../Judul.jsx'
+import Header from '../Header.jsx'
+import Paragraf1 from '../Paragraf1.jsx'
+import Image from '../imageProperties.jsx'
 import gambar1 from '../../assets/pelatihan/gambar-4.jpg'
 import gambar2 from '../../assets/pelatihan/gambar-2.jpg'
-import MainText from './paragrafUtama'
-import Ending from './closing'
-import Footer from './footer'
+import MainText from '../paragrafUtama.jsx'
+import Ending from '../closing.jsx'
+import Footer from '../footer.jsx'
 import React, { useEffect } from 'react';
 
 export default function Pelatihan() {

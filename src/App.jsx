@@ -3,6 +3,7 @@ import Card from './card-blog.jsx';
 import LandingPage from './landing.jsx';
 import Pelatihan from './pages/pelatihan/pelatihan.jsx';
 import Keyboard from './pages/keyboard/keyboard.jsx';
+import Daredevil from './pages/daredevil/daredevil.jsx';
 
 import keebsImage from './assets/keebs.jpg';
 import magangImage from './assets/magang-2.jpg';
@@ -26,7 +27,7 @@ const blogData = [
     Title: "Review Daredevil:Born Again",
     Genre: "Movie/series Review",
     picture: daredevilImage,
-    link: "https://farrelekaputra.github.io/daredevil.html"
+    link: "/daredevil"
   },
   {
     Title: "Tibe Tiba Ngajar",
@@ -59,6 +60,7 @@ function App() {
         />
         <Route path="/pelatihan" element={<Pelatihan />} />
         <Route path="/keyboard" element={<Keyboard />} />
+        <Route path="/daredevil" element={<Daredevil />} />
       </Routes>
     </Router>
   );

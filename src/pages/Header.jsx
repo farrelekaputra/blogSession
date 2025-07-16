@@ -20,7 +20,7 @@ const Header = ({tanggal, genre, judul}) => {
             </span>
             </section>
             <section className="title flex justify-center mx-auto w-full">
-            <h1 className="text-5xl flex mx-auto font-bold text-gray-700">{judul}</h1>
+            <h1 className="text-5xl md:text-center flex mx-auto font-bold text-gray-700">{judul}</h1>
             </section>
         </div>
     );
