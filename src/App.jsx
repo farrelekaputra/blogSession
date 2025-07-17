@@ -4,6 +4,7 @@ import LandingPage from './landing.jsx';
 import Pelatihan from './pages/pelatihan/pelatihan.jsx';
 import Keyboard from './pages/keyboard/keyboard.jsx';
 import Daredevil from './pages/daredevil/daredevil.jsx';
+import Magang from './pages/magang/magang.jsx'
 
 import keebsImage from './assets/keebs.jpg';
 import magangImage from './assets/magang-2.jpg';
@@ -21,7 +22,7 @@ const blogData = [
     Title: "Magang Akademik",
     Genre: "College life",
     picture: magangImage,
-    link: "https://farrelekaputra.github.io/magang.html"
+    link: "/magang"
   },
   {
     Title: "Review Daredevil:Born Again",
@@ -61,6 +62,7 @@ function App() {
         <Route path="/pelatihan" element={<Pelatihan />} />
         <Route path="/keyboard" element={<Keyboard />} />
         <Route path="/daredevil" element={<Daredevil />} />
+        <Route path="/magang" element={<Magang />} />
       </Routes>
     </Router>
   );
