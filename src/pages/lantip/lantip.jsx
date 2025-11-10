@@ -27,7 +27,7 @@ export default function Lantip() {
         <article className="content flex flex-col mx-auto w-full md:p-4 rounded-md">
           
           <Paragraf1 
-            teks = "Semarang, 2025. Kegiatan ppl dimulai 'Lah kenapa PPL? di tulisan sebelumnya katanya informatika' ya, betul informatika tapi ada unsur pendidikannya. Tapi berbeda di ngajar yang sebelumnya, ini merupakan kegiatan yang wajib secara administrasi dari jurusan buat ngisi salah satu MK wajib buat syarat kelulusan."
+            teks = "Semarang, 2025. Kegiatan PPL dimulai 'Lah kenapa PPL? di tulisan sebelumnya katanya informatika' ya, betul informatika tapi ada unsur pendidikannya. Tapi berbeda di ngajar yang sebelumnya, ini merupakan kegiatan yang wajib secara administrasi dari jurusan buat ngisi salah satu MK wajib buat syarat kelulusan."
           />
           <Image 
             gambar={gambar4}
