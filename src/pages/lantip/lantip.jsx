@@ -10,6 +10,16 @@ import gambar6 from '../../assets/lantip/penilaian.jpg'
 import MainText from '../paragrafUtama.jsx'
 import Ending from '../closing.jsx'
 import Footer from '../footer.jsx'
+import { Helmet } from 'react-helmet'
+
+<Helmet>
+  <title>Ngajar lagi</title>
+  <meta property="og:title" content="Tiba-tiba Ngajar (2)" />
+  <meta property="og:description" content="Cerita pengalaman PPL di sekolah mitra, dari observasi sampai ngajar di kelas 11 jurusan Komputer dan Jaringan." />
+  <meta property="og:image" content="https://blogpararel.vercel.app/thumbnails/lantip-thumb.jpg" />
+  <meta property="og:url" content="https://blogpararel.vercel.app/lantip" />
+  <meta property="og:type" content="article" />
+</Helmet>
 
 export default function Lantip() {
   return (
