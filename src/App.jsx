@@ -4,12 +4,14 @@ import LandingPage from './landing.jsx';
 import Pelatihan from './pages/pelatihan/pelatihan.jsx';
 import Keyboard from './pages/keyboard/keyboard.jsx';
 import Daredevil from './pages/daredevil/daredevil.jsx';
-import Magang from './pages/magang/magang.jsx'
+import Magang from './pages/magang/magang.jsx';
+import Lantip from './pages/lantip/lantip.jsx';
 
 import keebsImage from './assets/keebs.jpg';
 import magangImage from './assets/magang-2.jpg';
 import daredevilImage from './assets/matt.png';
 import pelatihanImage from './assets/pelatihan-gambar.jpg';
+import lantipImage from './assets/lantip/lantip-2.jpg';
 
 const blogData = [
   {
@@ -35,6 +37,12 @@ const blogData = [
     Genre: "College life",
     picture: pelatihanImage,
     link: "/pelatihan"
+  },
+  {
+    Title: "Tibe Tiba Ngajar (2)",
+    Genre: "College life",
+    picture: lantipImage,
+    link: "/lantip"
   }
 ];
 
@@ -63,6 +71,7 @@ function App() {
         <Route path="/keyboard" element={<Keyboard />} />
         <Route path="/daredevil" element={<Daredevil />} />
         <Route path="/magang" element={<Magang />} />
+        <Route path="/lantip" element={<Lantip />} />
       </Routes>
     </Router>
   );
