@@ -57,7 +57,7 @@ export default function Lantip() {
           />
           <MainText 
             teks={[
-              "Langsung aja bahas gimana experience di week-4 sampai akhir, disini yang satu prodi pendidikan informatika diarahin buat handle semua kelas jurusan komputer dan jurusan (yep kelas 10-12) dam setiap mahasiswa diserahin satu kelas utama buat di handle, dan kebetulan gw dapet di kelas 11. Jujur waktu pertama masuk canggung sih, namanya juga pertama kali dan liat satu kelas orang asing semua. Well jelas lama-lama udah mulai kebiasa sama karakteristik setiap siswa disana kegiatan pengajaran pun mulai beres dan berusaha menyatukan frekuensi bersama para siswa di kelas."
+              "Langsung aja bahas gimana experience di week-4 sampai akhir, disini yang satu prodi pendidikan informatika diarahin buat handle semua kelas jurusan komputer dan jurusan (yep kelas 10-12) dam setiap mahasiswa diserahin satu kelas utama buat di handle, dan kebetulan aku dapet di kelas 11. Jujur waktu pertama masuk canggung sih, namanya juga pertama kali dan liat satu kelas orang asing semua. Well jelas lama-lama udah mulai kebiasa sama karakteristik setiap siswa disana kegiatan pengajaran pun mulai beres dan berusaha menyatukan frekuensi bersama para siswa di kelas."
             ]}
           />
           <Image 
@@ -66,7 +66,7 @@ export default function Lantip() {
             caption="Belajar sama pak Farrel dapet berapa? 100 geez"
           />
           <Ending 
-            penutup="Oke, jadi kalo kelas yang gw isi setiap siswa diwajibkan buat bikin laporan praktik, trus beberapa siswa ditunjuk buat bacain praktek nya didepan kelas. Trus ending kegiatan ini gimana? oke dari preferensi pribadi sisi akademik dulu yah, jelas kegiatan ini bakal ngasih pembekalan kepada setiap mahasiswa gimana caranya biar bisa ngelola kelas dan ngadepin setiap karakter siswa. Tapi diluar konteks akademis, kegiatan ini lumayan asik buat cari relas, apalagi kalo ketemu temen-temen angkatan PPL atau siswa yang punya hobi yang sama dan jadi se-frekuensi. Udah mungkin gitu dulu aja di sesi kali ini, next mungkin bakal bikin sebagai mahasiswa akhir kali"
+            penutup="Oke, jadi kalo kelas yang ku isi setiap siswa diwajibkan buat bikin laporan praktik, trus beberapa siswa ditunjuk buat bacain praktek nya didepan kelas. Trus ending kegiatan ini gimana? oke dari preferensi pribadi sisi akademik dulu yah, jelas kegiatan ini bakal ngasih pembekalan kepada setiap mahasiswa gimana caranya biar bisa ngelola kelas dan ngadepin setiap karakter siswa. Tapi diluar konteks akademis, kegiatan ini lumayan asik buat cari relas, apalagi kalo ketemu temen-temen angkatan PPL atau siswa yang punya hobi yang sama dan jadi se-frekuensi. Udah mungkin gitu dulu aja di sesi kali ini, next mungkin bakal bikin sebagai mahasiswa akhir kali"
           />
 
         </article>

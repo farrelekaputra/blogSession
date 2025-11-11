@@ -42,7 +42,7 @@ const blogData = [
     Title: "Tibe Tiba Ngajar (2)",
     Genre: "College life",
     picture: lantipImage,
-    link: "/lantip"
+    link: "/ngajar-lagi"
   }
 ];
 
@@ -71,7 +71,7 @@ function App() {
         <Route path="/keyboard" element={<Keyboard />} />
         <Route path="/daredevil" element={<Daredevil />} />
         <Route path="/magang" element={<Magang />} />
-        <Route path="/lantip" element={<Lantip />} />
+        <Route path="/ngajar-lagi" element={<Lantip />} />
       </Routes>
     </Router>
   );
