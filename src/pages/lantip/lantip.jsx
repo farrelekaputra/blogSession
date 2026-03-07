@@ -1,10 +1,10 @@
-import Navbar from '../Navbar.jsx'
-import Judul from '../Judul.jsx'
-import Header from '../Header.jsx'
-import Paragraf1 from '../Paragraf1.jsx'
-import Image from '../imageProperties.jsx'
-import gambar5 from '../../assets/lantip/X TJKT 2.jpg'
-import gambar2 from '../../assets/lantip/lantip-2.jpg'
+import Navbar from '../Navbar.jsx';
+import Judul from '../Judul.jsx';
+import Header from '../Header.jsx';
+import Paragraf1 from '../Paragraf1.jsx';
+import Image from '../imageProperties.jsx';
+import gambar5 from '../../assets/lantip/X TJKT 2.jpg';
+import gambar2 from '../../assets/lantip/lantip-2.jpg';
 import gambar4 from '../../assets/lantip/lantip-4.jpg'
 import gambar6 from '../../assets/lantip/penilaian.jpg'
 import MainText from '../paragrafUtama.jsx'
