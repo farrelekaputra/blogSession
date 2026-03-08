@@ -63,7 +63,7 @@ function App() {
           element={
             <>
               <LandingPage />
-              <div className="container w-11/12 flex flex-col justify-start pt-12 mx-auto gap-8 mb-8">
+              <div className="container w-11/12  flex flex-col justify-start pt-12 mx-auto gap-8 mb-8">
                 <div className="headertext flex flex-col">
                   <h1 className="text-gray-800 text-2xl font-semibold flex">Mini Blog</h1>
                   <p className="caption text-justify">
