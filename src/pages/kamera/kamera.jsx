@@ -22,7 +22,7 @@ export default function Kamera() {
             <meta property="og:url" content="https://blogpararel.vercel.app/kamera" />
             <meta property="og:type" content="article" />
         </Helmet>
-      <Judul temaWeb = "Tahun Baru Hobi Baru?"/>
+      <Judul temaWeb = "Bahas Kamera"/>
       < Navbar title = "Tiba-tiba Motret"/>
 
       <div className="container mt-20 w-full flex flex-col items-center self-center justify-center mx-auto gap-4 p-4">
@@ -30,7 +30,7 @@ export default function Kamera() {
         < Header 
           tanggal="7 Maret 2026"
           genre="Boys Will be Boys"
-          judul="Tiba Tiba Motret"/>
+          judul="Tahun Baru Hobi Baru?"/>
 
         <article className="content flex flex-col mx-auto w-full md:p-4 rounded-md">
           
