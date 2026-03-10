@@ -6,9 +6,9 @@ import MainText from '../paragrafUtama.jsx'
 import Ending from '../closing.jsx'
 import Footer from '../footer.jsx'
 import { Helmet } from 'react-helmet'
-import gambar1 from '../../assets/kamera/konser.jpg';
-import gambar2 from '../../assets/kamera/cover.png';
-import gambar3 from '../../assets/kamera/IMG_1257.JPG';
+import gambar1 from '../../assets/kamera/konser.webp';
+import gambar2 from '../../assets/kamera/cover.webp';
+import gambar3 from '../../assets/kamera/IMG_1257.webp';
 import Image from '../imageProperties.jsx';
 
 export default function Kamera() {
@@ -55,7 +55,7 @@ export default function Kamera() {
           <MainText 
             teks={[
               "Dan kemudian setelah terjadi diskusi yang sehat antara penjual dengan pembeli, disepakatilah akad pembelian. Berhasil dah tuh bawa pulang unit DSLR lawas canon 1200d, lensa kit. kondisi fisik 90%, include sd card 64 gb minat bisa-- dan mulai dari sini hobi foto mulai muncul. Waktu pertama kali mungkin kalo orang liat kaya aneh sih di jaman sekarang orang bisa foto/abadiin momen cukup pake hape doang, sedangkan anomali satu ini bawa kamera badag dari 12 tahun lalu (kamera ini keluaran 2014 btw). Lalu setelah bawa kamera ini ke event-event mulai udah paham dikit-dikit tentang kamera dan mulai bangga dengan kamera tua ini, jelas dong udah mau tamatin hobi ini udah proper juga kamera nya buat dipake-- dan kebeli juga lensa baru (ya, ini orang yang tadi ngirain upgrade lensa itu hal yang buang-buang duit). Dan dapet dah tu lensa dengan negosiasi yang telah disepakati bersama, disini agak beda ya sama lensa awal yang bisa zoom in zoom out, lensa yang baru didapet ini zoom nya udah fix tapi better kalo soal warna dan foto low light.",
-              "Terus, setelah beberapa waktu mulai nikmatin kamera ini dan pede sama hasil sendiri mulai bikin deh akun yang isinya jepretan random si katuba (kamera tua bangka biar gampang nyebutnya) ini. Promosi dikit boleh kali, kalian bisa ngecek sendiri atau klik akun disamping namanya <a href='https://www.instagram.com/paralell25/' target='_blank' rel='noopener noreferrer' className='text-blue-500 underline font-medium'>  @paralell25 </a> disitu udah ada beberapa jepretan random. Gak lama setelah itu, diundang sama temen yang udah selesai sidang skripsi (selamat yah), dan inisiatif bawa kamera buat dokumentasiin momen. Sedikit banyak kejadian, trus dibilang deh hasil foto-foto ini udah lumayan proper. Jadiyah keliatannya mulai pede buat abadiin momen orang lain pake katuba ini (kalian juga yang lagi baca misal ada undangan sidang/wisuda bisa kali kontak hehe)."
+              "Terus, setelah beberapa waktu mulai nikmatin kamera ini dan pede sama hasil sendiri mulai bikin deh akun yang isinya jepretan random si katuba (kamera tua bangka biar gampang nyebutnya) ini. Promosi dikit boleh kali, kalian bisa ngecek sendiri atau klik akun disamping namanya <a href='https://www.instagram.com/paralell25/' target='_blank' rel='noopener noreferrer' className='text-blue-500 underline font-medium'>  @paralell25 </a> disitu udah ada beberapa jepretan random. Gak lama setelah itu, diundang sama temen yang udah selesai sidang skripsi (selamat yah), dan inisiatif bawa kamera buat dokumentasiin momen. Sedikit banyak kejadian, trus dibilang deh hasil foto-foto ini udah lumayan proper. Jadi yah keliatannya mulai pede buat abadiin momen orang lain pake katuba ini (kalian juga yang lagi baca misal ada undangan sidang/wisuda bisa kali kontak hehe)."
             ]}
           />
           <Image 
