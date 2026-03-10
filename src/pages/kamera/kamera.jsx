@@ -8,7 +8,7 @@ import Footer from '../footer.jsx'
 import { Helmet } from 'react-helmet'
 import gambar1 from '../../assets/kamera/konser.jpg';
 import gambar2 from '../../assets/kamera/cover.png';
-import gambar3 from '../../assets/kamera/IMG_1257.jpg';
+import gambar3 from '../../assets/kamera/IMG_1257.JPG';
 import Image from '../imageProperties.jsx';
 
 export default function Kamera() {
