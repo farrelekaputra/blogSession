@@ -7,6 +7,7 @@ import Daredevil from './pages/daredevil/daredevil.jsx';
 import Magang from './pages/magang/magang.jsx';
 import Lantip from './pages/lantip/lantip.jsx';
 import Kamera from './pages/kamera/kamera.jsx'
+import College from './pages/college/college.jsx'
 
 import keebsImage from './assets/keebs.jpg';
 import magangImage from './assets/magang-2.jpg';
@@ -52,6 +53,24 @@ const blogData = [
     picture: kameraImage,
     link: "/kamera"
   },
+  {
+    Title: "Tibe Tiba Motret",
+    Genre: "Boys Will be Boys",
+    picture: kameraImage,
+    link: "/kamera"
+  },
+  {
+    Title: "Tiba Tiba Motret",
+    Genre: "Boys Will be Boys",
+    picture: kameraImage,
+    link: "/kamera"
+  },
+  {
+    Title: "Six Stage of College",
+    Genre: "College Life",
+    picture: kameraImage,
+    link: "/college"
+  },
 ];
 
 function App() {
@@ -81,6 +100,7 @@ function App() {
         <Route path="/magang" element={<Magang />} />
         <Route path="/ngajar-lagi" element={<Lantip />} />
         <Route path="/kamera" element={<Kamera />} />
+        <Route path="/college" element={<College/>} />
       </Routes>
     </Router>
   );
